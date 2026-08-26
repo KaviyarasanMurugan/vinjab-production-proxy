@@ -3,8 +3,14 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "https://script.google.com/macros/s/AKfycbw1F5GtBSfUU8cMKVnqSoSHCP-IYiN2VsLGU1SOq1wTS00L-rD9KkyWJJwaqh73rs_I/exec",
+      "destination": "https://script.google.com/macros/s/AKfycbw1F5GtBSfUU8cMKVnqSoSHCP-IYiN2VsLGU1SQ1wTS00L-rD9KkyWJJwaqh73rs_I/exec",
       "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/privacy",
+      "destination": "/privacy.html"
     }
   ]
 }
