@@ -4,7 +4,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec"
+      "destination": "https://script.google.com/macros/s/AKfycbw1F5GtBSfUU8cMKVnqSoSHCP-IYiN2VsLGU1SOq1wTS00L-rD9KkyWJJwaqh73rs_I/exec"
     },
     {
       "source": "/privacy",
