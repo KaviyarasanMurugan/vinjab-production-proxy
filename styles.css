@@ -1473,3 +1473,83 @@
       height: 60px;
     }
   }
+/* ============================================================
+   VINJAB FOUNDER SECTION
+   ============================================================ */
+
+.founder-section {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 56px;
+  padding: 20px 0;
+}
+
+.founder-photo-wrapper {
+  flex: 0 0 320px;
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  border: 1px solid var(--border-color);
+}
+
+.founder-photo {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.founder-info {
+  flex: 1;
+}
+
+.founder-info h3 {
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+
+.founder-title {
+  color: var(--color-accent);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.founder-info > p:last-child {
+  color: var(--color-text-soft);
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* ---------- Founder mobile ---------- */
+
+@media (max-width: 768px) {
+
+  .founder-section {
+    flex-direction: column;
+    gap: 28px;
+    padding: 0;
+  }
+
+  .founder-photo-wrapper {
+    width: min(100%, 340px);
+    flex-basis: auto;
+  }
+
+  .founder-photo {
+    height: 420px;
+  }
+
+  .founder-info {
+    text-align: center;
+  }
+
+  .founder-info h3 {
+    font-size: 28px;
+  }
+}
